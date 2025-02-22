@@ -1,4 +1,4 @@
-# Demo React App
+# Template React App
 
 This is a modern React application built with Vite, Mantine UI, and Storybook for UI development. It includes TypeScript support, linting with ESLint, and formatting with Prettier.
 
