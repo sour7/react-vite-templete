@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc -b && vite build",
     "dev": "vite",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "pretty": "prettier --cache --write . && sort-package-json",
     "preview": "vite preview"
   },

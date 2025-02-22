@@ -1,6 +1,6 @@
+import { Header } from "./components/Header";
 import { AppShell, useMantineColorScheme } from "@mantine/core";
 import { Outlet } from "react-router-dom";
-import { Header } from "./components/Header";
 import "@mantine/core/styles.css";
 
 export function App() {
