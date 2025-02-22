@@ -1,4 +1,4 @@
-# Template React App
+# Demo React App
 
 This is a modern React application built with Vite, Mantine UI, and Storybook for UI development. It includes TypeScript support, linting with ESLint, and formatting with Prettier.
 
@@ -17,7 +17,7 @@ This is a modern React application built with Vite, Mantine UI, and Storybook fo
 Ensure you have [Node.js](https://nodejs.org/) installed, then run:
 
 ```sh
-npm install
+yarn install
 ```
 
 ## Scripts
@@ -25,28 +25,28 @@ npm install
 ### Development
 
 ```sh
-npm run dev       # Start Vite development server
-npm run dev:sb    # Start Storybook on port 6006
+yarn dev       # Start Vite development server
+yarn dev:sb    # Start Storybook on port 6006
 ```
 
 ### Build
 
 ```sh
-npm run build     # Build the app using Vite and TypeScript
-npm run build:sb  # Build Storybook
+yarn build     # Build the app using Vite and TypeScript
+yarn build:sb  # Build Storybook
 ```
 
 ### Lint & Format
 
 ```sh
-npm run lint      # Run ESLint with auto-fix
-npm run pretty    # Format code with Prettier and sort package.json
+yarn lint      # Run ESLint with auto-fix
+yarn pretty    # Format code with Prettier and sort package.json
 ```
 
 ### Preview
 
 ```sh
-npm run preview   # Preview the production build
+yarn preview   # Preview the production build
 ```
 
 ## Dependencies
