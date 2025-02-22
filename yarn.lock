@@ -533,6 +533,11 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.9.tgz#50dea3616bc8191fb8e112283b49eaff03e78429"
   integrity sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==
 
+"@fontsource/raleway@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/raleway/-/raleway-5.1.1.tgz#7b6cde17ab807407abc367ebaf16c8b4c7d18fb9"
+  integrity sha512-gCLRJLqdUYI7BDSzvoMFOSNvS4NXUIqSdzQ7PTEqoQDHWLTcoA0xhXgljivmVbJ2ziJq1NZO7tYpDLMlIFe66g==
+
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/@humanfs/core/-/core-0.19.1.tgz#17c55ca7d426733fe3c561906b8173c336b40a77"
