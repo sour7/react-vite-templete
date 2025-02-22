@@ -1,51 +1,62 @@
-# React + TypeScript + Vite
+# Demo React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern React application built with Vite, Mantine UI, and Storybook for UI development. It includes TypeScript support, linting with ESLint, and formatting with Prettier.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** - The latest version of React
+- **Vite** - Fast build and development server
+- **Mantine UI** - Component library for styling and hooks
+- **Storybook** - Isolated UI component development
+- **ESLint & Prettier** - Code linting and formatting
+- **TypeScript** - Strongly typed JavaScript
+- **PostCSS** - Advanced styling features
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Ensure you have [Node.js](https://nodejs.org/) installed, then run:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```sh
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Scripts
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Development
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```sh
+npm run dev       # Start Vite development server
+npm run dev:sb    # Start Storybook on port 6006
 ```
-# react-vite-templete
+
+### Build
+
+```sh
+npm run build     # Build the app using Vite and TypeScript
+npm run build:sb  # Build Storybook
+```
+
+### Lint & Format
+
+```sh
+npm run lint      # Run ESLint with auto-fix
+npm run pretty    # Format code with Prettier and sort package.json
+```
+
+### Preview
+
+```sh
+npm run preview   # Preview the production build
+```
+
+## Dependencies
+
+- **UI & Styling**: Mantine, Tabler Icons, FontSource Raleway
+- **Routing**: React Router
+- **Tooling**: Storybook, ESLint, Prettier, TypeScript
+
+## Development Tools
+
+- **Chromatic** - Visual testing for Storybook
+- **PostCSS** - CSS pre-processing with Mantine preset
+
